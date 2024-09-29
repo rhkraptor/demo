@@ -11,4 +11,4 @@ It is going well!!!!!
 4. Now use command:  ""git push origin main"".
 5. If this don't works, use first: ""git pull"".
 6. Then use: ""git log"", to resolve merging issues.
-7. Then again use: ""git push -u origin main -f"".
+7. Then again use: ""git push -u origin main -f""..
