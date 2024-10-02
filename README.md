@@ -61,5 +61,6 @@ For the quick understanding watching the video, whose links is in the following:
 ### Other commands
 - press "q" to exit, when you stuck in terminal.
 - you can auto complete the branch name by inputing last characters and simultaniously pressing escape.
+- command "git diff" shows you the difference between branches.
 
 
