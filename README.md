@@ -58,5 +58,8 @@ For the quick understanding watching the video, whose links is in the following:
    **Feature Branching**: Create a branch for each feature or task, merge back when done.
 >  **Trunk-based Development**: Developers work on short-lived branches, merging changes into the main branch quickly.
 
+### Other commands
+- press "q" to exit, when you stuck in terminal.
+- you can auto complete the branch name by inputing last characters and simultaniously pressing escape.
 
 
