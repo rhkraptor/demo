@@ -6,20 +6,20 @@ It is going well!!!!!
 
 ### Intro to commands
 >. "git clone" brings a repository that is hosted somewhere else i.e. Github into a folder on your local machine.
->. "add" Track your files and changes in Git.
->. "commit" saves your files in Git.
->. "push" upload Git commits to a remote repo, like GitHub.
->. "pull" ´download changes from remote repo to your local machine, the opposite of push.
->. "ls -la" is the equalent of "la" in windows., which means list all.
->. "git add ." will add new changes and even new folders will be added to git. For saving changes individually we can use command "git add filename".
+ "add" Track your files and changes in Git.
+ "commit" saves your files in Git.
+ "push" upload Git commits to a remote repo, like GitHub.
+ "pull" ´download changes from remote repo to your local machine, the opposite of push.
+ "ls -la" is the equalent of "la" in windows., which means list all.
+ "git add ." will add new changes and even new folders will be added to git. For saving changes individually we can use command "git add filename".
 >. "reset" is used to clear all code and commands in the terminal.
 
 
-### how to push to GitHub
+### How to push to GitHub
 >. First of all check status by using command: ""git status"", the changes will be shown in red higlighted text.
->. Then to save locally the changes first use command: ""git  add ."", and check the git status again , now the modifications will bw shown in green highlighted text.
->. And now the changes are ready to be commited, which we will do by using command: "" git commit -m "a" -m "a" "", "a" are for your messages, that what and why?.
->. Now use command:  ""git push origin main"".
->. If this don't works, use first: ""git pull"".
->. Then use: ""git log"", to resolve merging issues.
+ Then to save locally the changes first use command: ""git  add ."", and check the git status again , now the modifications will bw shown in green highlighted text.
+ And now the changes are ready to be commited, which we will do by using command: "" git commit -m "a" -m "a" "", "a" are for your messages, that what and why?.
+ Now use command:  ""git push origin main"".
+ If this don't works, use first: ""git pull"".
+ Then use: ""git log"", to resolve merging issues.
 >. Then again use: ""git push -u origin main -f"".
