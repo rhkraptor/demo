@@ -4,7 +4,7 @@ Wanted to check out the Git and GitHub ans specially the concept of versioning, 
 ## Subheader
 It is going well!!!!!
 
-###Intro to commands
+### Intro to commands
 >. "git clone" brings a repository that is hosted somewhere else i.e. Github into a folder on your local machine.
 >. "add" Track your files and changes in Git.
 >. "commit" saves your files in Git.
@@ -16,10 +16,10 @@ It is going well!!!!!
 
 
 ### how to push to GitHub
-1. First of all check status by using command: ""git status"", the changes will be shown in red higlighted text.
-2. Then to save locally the changes first use command: ""git  add ."", and check the git status again , now the modifications will bw shown in green highlighted text.
-3. And now the changes are ready to be commited, which we will do by using command: "" git commit -m "a" -m "a" "", "a" are for your messages, that what and why?.
-4. Now use command:  ""git push origin main"".
-5. If this don't works, use first: ""git pull"".
-6. Then use: ""git log"", to resolve merging issues.
-7. Then again use: ""git push -u origin main -f"".
+>. First of all check status by using command: ""git status"", the changes will be shown in red higlighted text.
+>. Then to save locally the changes first use command: ""git  add ."", and check the git status again , now the modifications will bw shown in green highlighted text.
+>. And now the changes are ready to be commited, which we will do by using command: "" git commit -m "a" -m "a" "", "a" are for your messages, that what and why?.
+>. Now use command:  ""git push origin main"".
+>. If this don't works, use first: ""git pull"".
+>. Then use: ""git log"", to resolve merging issues.
+>. Then again use: ""git push -u origin main -f"".
