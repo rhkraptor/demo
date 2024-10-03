@@ -59,10 +59,15 @@ It is going well!!!!!
    - **Trunk-based Development**: Developers work on short-lived branches, merging changes into the main branch quickly.
 
 ### Other commands
-- press "q" to exit, when you stuck in terminal.
-- you can auto complete the branch name by inputing last characters and simultaniously pressing escape.
-- command "git diff branchname" shows you the difference between branches, "git diff" will show you differnce between last you commit.
-- command "git merge branchname" will merge the branches.
-- command "git commit -am "message"" will directly commit a change by skipping the add step for the modified file (Red), not for new file.
-- command "git reset filename" or just "git reset" will undo/ unstage the 'Adding Step'.
+
+- Press **"q"** to exit when stuck in the terminal.
+- You can autocomplete the branch name by typing the last characters and simultaneously pressing **Escape**.
+- **`git diff branchname`** shows the difference between branches.
+- **`git diff`** shows the difference between your last commit and the working directory.
+- **`git merge branchname`** merges the specified branch into the current one.
+- **`git commit -am "message"`** commits changes directly, skipping the `add` step for modified files (but not for new files).
+- **`git reset HEAD~1`** uncommits and unstages changes.
+- **`git reset`** or **`git reset filename`** will only unstage the changes (reversing the `add` step).
+- To undo a specific or multiple commits, use **`git log`** to view all commits (each commit has a unique hash). Copy the hash of the commit you want to undo and use **`git reset <hash>`** to uncommit.
+- **`git reset --hard <hash>`** will not only uncommit/unstage but also remove the changes locally.
 
