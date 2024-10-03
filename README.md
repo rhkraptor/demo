@@ -71,3 +71,19 @@ It is going well!!!!!
 - To undo a specific or multiple commits, use **`git log`** to view all commits (each commit has a unique hash). Copy the hash of the commit you want to undo and use **`git reset <hash>`** to uncommit.
 - **`git reset --hard <hash>`** will not only uncommit/unstage but also remove the changes locally.
 
+### Forking
+
+- **Forking** is creating a personal copy of someone else’s repository on GitHub. 
+- It allows you to experiment with changes without affecting the original project.
+- A **fork** is a separate repository on your GitHub account, but it's linked to the original repository.
+- You can make changes in your forked repo, and if you want those changes in the original project, you can submit a **pull request**.
+- Forking is useful for contributing to open-source projects or modifying a project for personal use.
+
+- The command to clone your forked repo locally:
+  ```bash
+  git clone https://github.com/your-username/repository-name.git
+  ```
+
+This keeps your copy independent but allows collaboration through pull requests!
+
+Here is a quick link to youtube video refering topic 'Forking': https://youtu.be/RGOj5yH7evk?si=Y5UHSL9XrjwWhmsF&t=3707
