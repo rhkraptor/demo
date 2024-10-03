@@ -63,4 +63,4 @@ It is going well!!!!!
 - you can auto complete the branch name by inputing last characters and simultaniously pressing escape.
 - command "git diff branchname" shows you the difference between branches.
 - command "git merge branchname" will merge the branches.
-
+- command "git commit -am "message"" will directly commit a change by skipping the add step for the modified file (Red), not for new file.
